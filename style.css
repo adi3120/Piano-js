@@ -24,6 +24,7 @@
     border: 0px solid black;
     position: relative;
     top: 70%;
+    pointer-events: none;
 }
 
 .csh,
