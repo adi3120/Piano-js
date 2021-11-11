@@ -1,0 +1,68 @@
+.piano {
+    display: flex;
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    height: 200px;
+    text-align: center;
+}
+
+.piano * {
+    width: 50px;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    margin: 1px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.piano h1 {
+    width: 0;
+    height: 0;
+    background-color: transparent;
+    margin: 0;
+    border: 0px solid black;
+    position: relative;
+    top: 70%;
+}
+
+.csh,
+.dsh,
+.fsh,
+.gsh,
+.ash {
+    height: 60%;
+    background-color: black;
+    color: white;
+    width: 40px;
+}
+
+.piano *:hover {
+    background-color: rgb(140, 101, 230);
+    box-shadow: 0 0 5px 5px rgb(1, 255, 77);
+}
+
+.csh {
+    position: absolute;
+    left: 7.5%;
+}
+
+.dsh {
+    position: absolute;
+    left: 22.5%;
+}
+
+.fsh {
+    position: absolute;
+    left: 50.5%;
+}
+
+.gsh {
+    position: absolute;
+    left: 66%;
+}
+
+.ash {
+    position: absolute;
+    left: 80%;
+}
